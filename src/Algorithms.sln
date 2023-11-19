@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Core", "Algorithms.Core\Algorithms.Core.csproj", "{D7204C64-452B-4EE0-9A21-CCC9B5F359B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Tests", "Algorithms.Tests\Algorithms.Tests.csproj", "{CAD148A9-AEA0-4DF7-AC9F-935525B8C518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7204C64-452B-4EE0-9A21-CCC9B5F359B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7204C64-452B-4EE0-9A21-CCC9B5F359B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7204C64-452B-4EE0-9A21-CCC9B5F359B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7204C64-452B-4EE0-9A21-CCC9B5F359B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD148A9-AEA0-4DF7-AC9F-935525B8C518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD148A9-AEA0-4DF7-AC9F-935525B8C518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD148A9-AEA0-4DF7-AC9F-935525B8C518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD148A9-AEA0-4DF7-AC9F-935525B8C518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
