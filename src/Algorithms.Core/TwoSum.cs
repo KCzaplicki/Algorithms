@@ -46,18 +46,18 @@ public class TwoSum
     // Version that returns the values instead of the indexes
     public int[] HashMapValuesSearch(int[] arr, int target)
     {
-        Dictionary<int, bool> map = [];
+        HashSet<int> map = [];
 
         for (var i = 0; i < arr.Length; i++)
         {
             var y = target - arr[i];
 
-            if (map.ContainsKey(y))
+            if (map.Contains(y))
             {
                 return [y, arr[i]];
             }
 
-            map[arr[i]] = true;
+            map.Add(arr[i]);
         }
         
         return [];
