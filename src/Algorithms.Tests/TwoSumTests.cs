@@ -4,7 +4,7 @@ namespace Algorithms.Tests;
 
 public class TwoSumTests
 {
-    private TwoSum _sut;
+    private readonly TwoSum _sut;
     
     public TwoSumTests()
     {

@@ -4,7 +4,7 @@ namespace Algorithms.Tests;
 
 public class TwoPointersTechniqueTests
 {
-    TwoPointersTechnique _sut;
+    private readonly TwoPointersTechnique _sut;
     
     public TwoPointersTechniqueTests()
     {
