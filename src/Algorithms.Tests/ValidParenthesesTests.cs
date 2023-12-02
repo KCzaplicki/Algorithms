@@ -15,7 +15,7 @@ public class ValidParenthesesTests
     [InlineData("()", true)]
     [InlineData("()[]{}", true)]
     [InlineData("(]", false)]
-    public void IsValidParenthesesTests(string value, bool expected)
+    public void IsValidParenthesesTest(string value, bool expected)
     {
         var result = _sut.StackIsValidParentheses(value);
         

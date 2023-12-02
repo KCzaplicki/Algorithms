@@ -24,7 +24,7 @@ public class PalindromeNumberTests
     [InlineData(123321, true)]
     [InlineData(1234321, true)]
     [InlineData(1410110141, true)]
-    public void IsPalindromeTests(int value, bool expected)
+    public void IsPalindromeTest(int value, bool expected)
     {
         var result = _sut.SideChecksIsPalindrome(value);
         

@@ -17,7 +17,7 @@ public class TwoPointersTechniqueTests
     [InlineData(new[] { 1, 2, 3, 4, 5, 9, 11 }, 7, new[] { 2, 5 })]
     [InlineData(new[] { 1, 2, 3, 4, 5, 9, 11 }, 9, new[] { 4, 5 })]
     [InlineData(new[] { 1, 2, 3, 4, 5, 9, 11 }, 14, new[] { 3, 11 })]
-    public void SearchSumTests(int[] arr, int target, int[] expected)
+    public void SearchSumTest(int[] arr, int target, int[] expected)
     {
         var result = _sut.SearchSum(arr, target);
         
