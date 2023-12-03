@@ -1,5 +1,7 @@
 namespace Algorithms.Core;
 
+// Given a sorted array of integers, return index of the given value or null if it doesn't exist.
+// Time complexity: O(log n)
 public class BinarySearch
 {
     public int? Search(int[] arr, int value)

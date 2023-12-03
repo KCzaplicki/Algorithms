@@ -1,5 +1,7 @@
 namespace Algorithms.Core;
 
+// Given a array of integers, sort it in ascending order.
+// Time complexity: O(n^2)
 public class SelectionSort
 {
     public int[] Sort(int[] array)
